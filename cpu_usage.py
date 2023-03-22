@@ -10,7 +10,7 @@ ys = [0]
 
 # Incremento partindo dos últimos valores de cada lista
 cpu_use = 0
-x = 1
+x = 0
 
 #função para animar
 def graphCPU(i, xs, ys):
