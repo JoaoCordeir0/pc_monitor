@@ -13,4 +13,4 @@ try:
 except Exception as err:
     print(err)
 finally:
-    input('\nAperte qualquer tecla para sair\n')
+    str(input('\nAperte qualquer tecla para sair\n'))
