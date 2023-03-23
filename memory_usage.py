@@ -13,7 +13,7 @@ ram_use = 0
 x = 0
 
 #função para animar
-def graphCPU(i, xs, ys):
+def graphMemory(i, xs, ys):
     global ram_use
     global x
 
@@ -46,5 +46,5 @@ def graphCPU(i, xs, ys):
     plt.ylabel('Porcentagem')
 
 # Chama a renderização do gráfico dentro da animação para ser renderizado dinamicamente a cada meio segundo
-ani = animation.FuncAnimation(fig, graphCPU, fargs=(xs, ys), interval=500)
+ani = animation.FuncAnimation(fig, graphMemory, fargs=(xs, ys), interval=500)
 plt.show()
